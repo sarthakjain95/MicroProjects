@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>TETRIS</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="style/style.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<!-- font-family: 'Montserrat', sans-serif; -->
+	</head>
+
+	<body>
+
+		<div id="main-content-holder" style="height:92vh;">
+			<div class="container-fluid h-100">
+				<div class="row h-100">
+					<div id="game-container" class="col-md-6">
+							<canvas id="canvas" height="400px" width="400px">
+	
+							</canvas>
+					</div>
+					<div id="about-container-holder" class="col-md-6">
+						<div id="about-container">
+							<span id="title-holder" style="font-size:7vw;">
+								<b>TETRIS.</b>
+							</span>
+							<br>
+							<span id="message-holder" style="font-size:3vw;">
+									Use 
+									<i class="fa fa-arrows-h" aria-hidden="true"></i>
+									, Q and W
+									to play!
+							</span>
+							<br> 
+							<span id="score" style="font-weight: 600; font-size:7vw">
+								0
+							</span>
+							<span id="game-over" style="font-weight: 600; display: none; font-size:3vw; color:red">
+								GAME OVER.
+							</span>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="footer-container">
+			<div class="container-fluid h-100">
+				<div class="row h-100">
+					<div class="col-md-6" id="name-holder">
+						<span><i class="fa fa-code"></i> by <b>Sarthak Jain</b></span>
+					</div>
+					<div class="col-md-6" id="social-links-holder">
+						<span>
+							<a href="https://github.com/sarthakjain95">
+								<i class="fa fa-github"></i>
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="scripts/main.js"></script>
+		<script src="scripts/core.js"></script>
+
+	</body>
+
+</html>
