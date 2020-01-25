@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width:device-width, inital-scale:1">
+	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/18/2048_logo.svg">
+	<title>2048 - Unlimited Fun!</title>
+	<link href="style/design.css" rel="stylesheet" type="text/css">
+	<!--BOOTSTRAP CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!--font-family: 'Raleway', sans-serif;-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet"> 
+
+</head>	
+
+<body>
+	<div class="container-fluid" id="navbar-holder">
+		<div id="navbar">
+			<div class="container">
+				<div>
+					<div id="logo-container">
+						<div id="logo">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/2048_logo.svg">
+						</div>
+					</div>
+					<div>
+						<div id="logo-text-holder">
+							<div id="logo-text"><strong>UNLIMITED FUN!</strong></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid" id="main-content-holder">
+		<div class="row">
+			<div class="col-xl-4" id="instructions-holder">
+				<div id="instructions">
+        				<br>
+        				<h1><strong>INSTRUCTIONS</strong></h1>
+        				<br>
+        				<p>Combine Numbers 2 and 4 to get to 2048.</p>        				
+        				<br>
+        				<p>Use Arrow keys ↑ → and ↓ ← <br>or direction swipes to Play.</p>
+        				<br>
+        				<p>The bigger numbers you combine, <br>The more points you get.</p>
+        				<br>
+        			</div>					
+			</div>
+		
+			<div class="col-xl-4" id="game-holder">
+				<div class="container-fluid" id="game">
+					<div class="grid-container">
+						<div class="grid-row">
+							<div class="grid-cell" id="00"></div>
+							<div class="grid-cell" id="01"></div>
+							<div class="grid-cell" id="02"></div>
+							<div class="grid-cell" id="03"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell" id="10"></div>
+							<div class="grid-cell" id="11"></div>
+							<div class="grid-cell" id="12"></div>
+							<div class="grid-cell" id="13"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell" id="20"></div>
+							<div class="grid-cell" id="21"></div>
+							<div class="grid-cell" id="22"></div>
+							<div class="grid-cell" id="23"></div>
+						</div>
+						<div class="grid-row">
+							<div class="grid-cell" id="30"></div>
+							<div class="grid-cell" id="31"></div>
+							<div class="grid-cell" id="32"></div>
+							<div class="grid-cell" id="33"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-xl-4" id="score-holder">
+				<div id="score">
+					<br>
+					<div>SCORE</div>
+					<div id="score-value">0</div>
+					<div id="reset-button-holder">
+						<div id="reset-button" onclick="resetGame()">RESET</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<div class="col-md-6">Made by <a href="https://github.com/sarthakjain95"><strong>Sarthak Jain</strong></a></div>
+			<div class="col-md-6">Original Game by <a href="http://2048game.net/gabriele-cirulli/"><strong>Gabriele Cirulli</strong></a></div>
+		</div>
+	</div>
+
+	<script src="scripts/main.js"></script>
+</body>
+
+</html>
+
