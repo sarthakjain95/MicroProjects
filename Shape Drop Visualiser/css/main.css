@@ -1,0 +1,44 @@
+
+body{
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+#control-bar{
+	background-color:black;
+	font-size: 5vh;
+	color:white;
+	text-align: center;
+	line-height: 9.8vh;
+	border-bottom:1px solid white;
+	position: absolute;
+	top:0px;
+	bottom:90vh;
+	left:0;
+	right:0;
+	margin:auto;
+	display: block;
+	width: 100vw;
+	height: 9.8vh;
+}
+
+#control-bar:hover{
+	cursor: pointer;
+}
+
+canvas{
+	position: absolute;
+	top: 10vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: block;
+	width: 99.5vw;
+	height: 89.5vh;
+}
+
