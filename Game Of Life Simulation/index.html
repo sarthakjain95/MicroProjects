@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8"> 	
+	<meta name="author" content="Sarthak Jain">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Game Of Life Simulation</title>
+	
+	<link rel="stylesheet" href="css/main.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- font-family: 'Montserrat', sans-serif; -->
+</head>
+
+<body>
+	<div id="control-bar">
+		<div id="step" class="control">
+			STEP
+		</div>
+		<div id="main-control" class="control">
+			START
+		</div>
+		<div id="delay-input" class="control"  name="delay-input">
+			<input type="number" id="delay" name="delay-input" min="10" step="1" placeholder="100">
+		</div>
+	</div>
+
+	<canvas id="canvas"></canvas>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

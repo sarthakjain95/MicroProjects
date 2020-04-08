@@ -1,0 +1,103 @@
+
+body{
+	background-color: #c92a42;
+	font-family: 'Montserrat', sans-serif !important;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+	padding: 0px;
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+	     -moz-user-select: none; /* Old versions of Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	           user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+#control-bar{
+	background-color:black;
+	font-size: 2vw;
+	color:white;
+	line-height: 9.8vh;
+	/*border-bottom:1px solid white;*/
+	position: absolute;
+	top:0px;
+	bottom:90vh;
+	left:0;
+	right:0;
+	display: table;
+	width: 100vw;
+}
+
+#control-bar:hover{
+	cursor: pointer;
+}
+
+.control{
+	position: relative;
+	height:9.8vh;
+	display: table-cell;
+	text-align: center;
+	margin-top: 0px;
+	padding: 0px;
+}
+
+#step{
+	margin-left:0px;
+	width: 25vw;
+	background-color: #801336;
+}
+
+#main-control{
+	margin-left:10vw;
+	width: 50vw;
+	background-color: #ee4540;
+}
+
+#delay-input{
+	width: 25vw;
+	background-color: #2d142c;
+	margin-left: 75vw;
+	margin-right: 0vw;
+}
+
+#delay-input input{
+	font-size: 2vw;
+	font-weight: bold;
+	position: relative;
+	display: table-cell;
+	border-radius: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 24vw;
+	height: 8.8vh;
+	text-align: center;
+	background-color: #2d142c;
+	color: #c92a42;
+	box-shadow: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+canvas{
+	position: absolute;
+	top: 10vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: block;
+	width: 99.5vw;
+	height: 89.5vh;
+}
+
